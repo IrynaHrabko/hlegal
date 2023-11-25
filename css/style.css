@@ -418,4 +418,8 @@ a, button, path {
 }
 .button_semirounded, .button_semirounded:before {
   border-radius: 30px 16px 16px 16px;
+}
+
+.header {
+  background: var(--ui-dark-gray);
 }/*# sourceMappingURL=style.css.map */
