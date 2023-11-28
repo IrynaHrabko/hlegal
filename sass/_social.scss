@@ -1,5 +1,7 @@
 .social {
   &__link {
     background: var(--primary-gradient);
+    min-width: 32px;
+    height: 32px;
   }
 }

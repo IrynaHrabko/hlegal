@@ -420,6 +420,12 @@ a, button, path {
   border-radius: 30px 16px 16px 16px;
 }
 
+.social__link {
+  background: var(--primary-gradient);
+  min-width: 32px;
+  height: 32px;
+}
+
 .header {
   background: var(--ui-dark-gray);
 }/*# sourceMappingURL=style.css.map */
