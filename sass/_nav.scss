@@ -1,0 +1,41 @@
+.nav {
+  
+  &__list {
+    list-style: none;
+    display: flex;
+    gap: 14px;
+    padding: 0;
+    margin: 0;
+  }
+  &__item {
+    
+  }
+  &__link {
+    text-decoration: none;
+    color: var(--grey-text);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+    svg {
+      fill: #B3B3BA;
+      &:focus,
+      &:hover,
+      &:active {
+        fill: #FFFFFF;
+      }
+    }
+
+  }
+}
+.rect {
+  
+  fill: none;
+  &:focus,
+  &:hover,
+  &:active {
+    fill: #F0145A;
+  }
+
+  
+}

@@ -310,4 +310,109 @@ template {
 
 * {
   box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+.center {
+  padding-left: calc(50vw - 173px);
+  padding-right: calc(50vw - 173px);
+}
+
+a, button, path {
+  transition: 0.3s;
+}
+
+.test-list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  list-style: none;
+  margin: 0;
+  padding: 30px 0;
+  max-width: 100%;
+  overflow: auto;
+}
+.test-list__item {
+  white-space: nowrap;
+}
+
+:root {
+  --main-regular: #323264;
+  --main-alt: #46466E;
+  --main-soft: #686887;
+  --basic-white: #FFF;
+  --accent: #F0145A;
+  --active-regular: #24A3FF;
+  --active-hover: #0085FF;
+  --active-active: #006CCF;
+  --grey-bg: #F5F5FA;
+  --grey-bg-alt: #EDEDF7;
+  --grey-text: #B3B3BA;
+  --grey-separator: #E6E6F0;
+  --gradient-regular: linear-gradient(129deg, #323264 0%, #323264 73.96%, #A54B5F 100%);
+  --gradient-soft: linear-gradient(42deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
+  --gradient-red: linear-gradient(323deg, #F0145A 6.7%, #693264 70.36%);
+  --gradient-supersoft: linear-gradient(229deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+  --gradient-red-text: linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%);
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("Montserrat-ThinItalic.woff2") format("woff2"), url("Montserrat-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("Montserrat-Thin.woff2") format("woff2"), url("Montserrat-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px 10px 22px;
+  background: var(--grey-bg);
+}
+
+.phone {
+  color: var(--grey-text);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+  gap: 14px;
+  padding: 0;
+  margin: 0;
+}
+.nav__link {
+  text-decoration: none;
+  color: var(--grey-text);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.nav__link svg {
+  fill: #B3B3BA;
+}
+.nav__link svg:focus, .nav__link svg:hover, .nav__link svg:active {
+  fill: #FFFFFF;
+}
+
+.rect {
+  fill: none;
+}
+.rect:focus, .rect:hover, .rect:active {
+  fill: #F0145A;
 }/*# sourceMappingURL=style.css.map */
